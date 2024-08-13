@@ -1,0 +1,159 @@
+/*Style for home page */
+
+.navbar{
+    list-style-type: none;
+    color: rgb(156, 156, 156);
+    margin-left: -50px;
+}
+
+#home, #resume, #project{
+    border-radius: 10px;
+    background-color: rgb(243, 243, 243);
+    margin-left: 13px;
+    padding: 4.5px;
+}
+
+a:visited{
+    color: rgb(145, 144, 143);
+}
+
+.nav-link:hover{
+    color: rgb(48, 47, 47);
+}
+
+a:active{
+    background-color: rgb(209, 206, 206);
+}
+
+.fa{
+    font-size: small;
+}
+
+.badge{
+    
+    background: linear-gradient(to right,rgb(19, 60, 223),rgb(140, 19, 140),rgb(233, 16, 16));
+}
+
+.profile{
+    background: linear-gradient(500deg,rgb(0, 119, 255),rgb(83, 155, 28));
+    border-radius: 35px;
+}
+
+.profile-img{
+   width: 350px;
+   height: 550px;
+}
+
+.name{
+   -webkit-text-fill-color: transparent;
+   background: linear-gradient(500deg,rgb(0, 119, 255),rgb(83, 155, 28));
+   background-clip: text;
+}
+
+.abouttext{
+    text-align: center;
+    font-weight: bolder;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(500deg,rgb(255, 46, 46),rgb(126, 5, 126),rgb(14, 7, 242));
+    background-clip: text;
+    
+}
+
+.text-center{
+    padding: 10px;
+    border-radius: 6px;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+
+.text-muted{
+    text-align: justify;
+}
+
+footer{
+    background-color: antiquewhite;
+    box-shadow: 0px 0px 10px 0px grey;
+}
+
+.mail {
+    text-decoration: none;
+    color: black;
+}
+
+.phone {
+    text-decoration: none;
+    color: black;
+}
+
+.mail:hover {
+    text-decoration: none;
+    color: black;
+}
+
+.phone:hover {
+    text-decoration: none;
+    color: black;
+}
+
+section .linkedin:hover{
+    transform: scale(1.2);
+}
+
+section .github:hover{
+    transform: scale(1.2);
+}
+
+.container {
+    max-width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+section {
+    padding: 20px;
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 10px;
+    }
+
+    .text-center {
+        padding: 10px 5px;
+    }
+}
+
+/*Style for resume page */
+
+.edu{
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+    background: linear-gradient(180deg,rgb(255, 29, 29),rgb(9, 9, 244));
+    background-clip: text;
+    text-transform: uppercase;
+}
+
+.year{
+    color: rgb(24, 97, 234);
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.education{
+    
+    max-width: 500px;
+}
+
+.education:hover{
+    transform: scale(1.05);
+}
+
+.rounded-4{
+    text-align: center;
+}
+
+.rounded-4:hover{
+    transform: scale(1.05);
+}
+
